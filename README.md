@@ -86,11 +86,7 @@ This project acts as a **trust layer for AI**, enabling users to:
 * Frontend: Vercel / Netlify
 * Backend: Render
 
----
 
-## 📸 Screenshots (Optional)
-
-*Add screenshots here for extra impact*
 
 ---
 
@@ -191,12 +187,7 @@ POST https://ps03-ai-verifier.onrender.com/verify
 * 👥 User authentication & history
 * 🌙 Light / Dark mode toggle
 
----
 
-## 🤝 Contributors
-
-* **Vanshika Sharma** – Frontend & Product Design
-* Backend & AI Verification – Custom ML Logic
 
 ---
 
