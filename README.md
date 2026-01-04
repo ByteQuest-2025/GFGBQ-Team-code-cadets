@@ -1,46 +1,6 @@
 
   <title>AI Verifier – Hackathon README</title>
-  <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      background-color: #0f172a;
-      color: #e5e7eb;
-      line-height: 1.6;
-      padding: 30px;
-    }
-    h1, h2, h3 {
-      color: #38bdf8;
-    }
-    a {
-      color: #22d3ee;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .box {
-      background: #020617;
-      border-left: 4px solid #38bdf8;
-      padding: 16px;
-      margin: 20px 0;
-      border-radius: 6px;
-    }
-    ul {
-      margin-left: 20px;
-    }
-    code {
-      background: #020617;
-      padding: 4px 6px;
-      border-radius: 4px;
-      color: #a5f3fc;
-    }
-    footer {
-      margin-top: 40px;
-      text-align: center;
-      color: #94a3b8;
-      font-size: 14px;
-    }
-  </style>
+ 
 </head>
 
 <body>
