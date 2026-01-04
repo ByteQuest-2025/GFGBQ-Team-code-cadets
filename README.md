@@ -1,193 +1,189 @@
 
----
+  <title>AI Verifier – Hackathon README</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+      padding: 30px;
+    }
+    h1, h2, h3 {
+      color: #38bdf8;
+    }
+    a {
+      color: #22d3ee;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .box {
+      background: #020617;
+      border-left: 4px solid #38bdf8;
+      padding: 16px;
+      margin: 20px 0;
+      border-radius: 6px;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    code {
+      background: #020617;
+      padding: 4px 6px;
+      border-radius: 4px;
+      color: #a5f3fc;
+    }
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      color: #94a3b8;
+      font-size: 14px;
+    }
+  </style>
+</head>
 
-# 📌 Problem Statement
+<body>
 
-With the rapid growth of generative AI, users increasingly rely on AI-generated content for academics, research, and professional tasks. However, AI systems often produce **hallucinated facts, misleading claims, and fake or broken citations**, making it difficult for users to judge the credibility of the information.
-There is a need for a unified platform that helps users **verify AI-generated text before trusting or using it**.
+  <h1>🤖 AI Verifier – Trust AI Before You Use It</h1>
 
----
+  <div class="box">
+    <strong>👥 Team Name:</strong> Code Cadets
+  </div>
 
-# 🔍 Project Name
+  <h2>📌 Hackathon Repository Guidelines</h2>
+  <div class="box">
+    <p>All team leaders may have received a GitHub invitation to a repository named:</p>
+    <code>GFGBQ-Team-&lt;Team Name&gt;</code>
 
-**AI Verifier – Trust AI Before You Use It**
+    <p>This repository serves as the <strong>official workspace for the hackathon</strong>.</p>
 
----
+    <h3>Team Leaders are responsible for:</h3>
+    <ul>
+      <li>Adding all officially registered teammates to the repository</li>
+      <li>Ensuring all development work and code pushes happen only in the assigned repository</li>
+      <li>No external collaborators are allowed</li>
+      <li>Only declared and registered team members may be added</li>
+      <li><strong>Adding any external collaborator will result in disqualification</strong></li>
+    </ul>
+  </div>
 
-# 👥 Team Name
+  <h2>📌 Problem Statement</h2>
+  <p>
+    With the rapid growth of generative AI, users increasingly rely on AI-generated content
+    for academics, research, and professional tasks. However, AI systems often produce
+    <strong>hallucinated facts, misleading claims, and fake or broken citations</strong>,
+    making it difficult to judge credibility.
+  </p>
+  <p>
+    There is a strong need for a unified platform that helps users
+    <strong>verify AI-generated content before trusting or using it</strong>.
+  </p>
 
-**Code Cadets**
+  <h2>🚀 Project Overview</h2>
+  <p>
+    <strong>AI Verifier</strong> is a web-based AI-powered platform that validates
+    AI-generated text by detecting hallucinations, verifying factual claims,
+    analyzing citations, and generating a <strong>Trust Score (0–100)</strong>.
+  </p>
+  <p>
+    It acts as a <strong>trust layer between users and AI systems</strong>,
+    enabling informed and responsible usage of AI-generated information.
+  </p>
 
----
+  <h2>✨ Key Features</h2>
+  <ul>
+    <li><strong>Claim Verification:</strong> Breaks text into claims and marks them as Valid, Questionable, or False</li>
+    <li><strong>Hallucination Detection:</strong> Identifies misleading or incorrect AI statements</li>
+    <li><strong>Citation Analysis:</strong> Detects fake, invalid, or broken references</li>
+    <li><strong>Trust Score:</strong> Overall reliability score from 0 to 100</li>
+    <li><strong>Premium UI:</strong> Glassmorphism design, fully responsive</li>
+  </ul>
 
-# 🌐 Deployed Link (Optional)
+  <h2>🛠️ Tech Stack</h2>
+  <h3>Frontend</h3>
+  <ul>
+    <li>React + TypeScript</li>
+    <li>Tailwind CSS</li>
+    <li>shadcn/ui</li>
+    <li>Lucide Icons</li>
+  </ul>
 
-Frontend: [https://codecadet-psi.vercel.app/](https://codecadet-psi.vercel.app/)
-Backend API: [https://ps03-ai-verifier.onrender.com](https://ps03-ai-verifier.onrender.com)
----
+  <h3>Backend</h3>
+  <ul>
+    <li>FastAPI</li>
+    <li>Python</li>
+    <li>AI/ML-based verification logic</li>
+  </ul>
 
-# 🎥 2-Minute Demonstration Video Link
+  <h3>Deployment</h3>
+  <ul>
+    <li>Frontend: Vercel</li>
+    <li>Backend: Render</li>
+  </ul>
 
-Demo Video:
-[https://drive.google.com/drive/folders/19ylCFDsXkA5bGek7ANolIf9Px_YyBWwJ?usp=sharing](https://drive.google.com/drive/folders/19ylCFDsXkA5bGek7ANolIf9Px_YyBWwJ?usp=sharing)
-*(Permission: Anyone with the link can view)*
+  <h2>🌐 Deployed Links</h2>
+  <ul>
+    <li>Frontend: <a href="https://codecadet-psi.vercel.app/" target="_blank">https://codecadet-psi.vercel.app/</a></li>
+    <li>Backend API: <a href="https://ps03-ai-verifier.onrender.com" target="_blank">https://ps03-ai-verifier.onrender.com</a></li>
+  </ul>
 
----
+  <h2>🎥 Demonstration Video</h2>
+  <p>
+    <a href="https://drive.google.com/drive/u/1/folders/1Y36SRopdGdP_tIiB50U5PtIb_iShMT_X" target="_blank">
+      Click here to view the 2-minute demo video
+    </a>
+    <br />
+    <em>(Permission: Anyone with the link can view)</em>
+  </p>
 
-# 📊 PPT Link
+  <h2>📊 PPT Link</h2>
+  <p>
+    <a href="https://www.canva.com/design/DAG9YUo6zOw/hPAt-6vwC4CjDQnhgY3fDA/edit" target="_blank">
+      View Project PPT (PDF)
+    </a>
+  </p>
 
-Project PPT (PDF):
-[https://www.canva.com/design/DAG9YUo6zOw/hPAt-6vwC4CjDQnhgY3fDA/edit?utm_content=DAG9YUo6zOw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAG9YUo6zOw/hPAt-6vwC4CjDQnhgY3fDA/edit?utm_content=DAG9YUo6zOw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-*(Permission: Anyone with the link can view)*
-
----
-
-# 🚀 Project Overview
-
-**AI Verifier** is a web-based AI-powered platform designed to verify the credibility of AI-generated content.
-It analyzes text to detect hallucinations, validate factual claims, identify fake or broken citations, and generate an overall **Trust Score**.
-
-The platform acts as a **trust layer between users and AI**, helping users make informed decisions before using AI-generated information.
-
----
-
-# ✨ Key Features
-
-### ✅ Claim Verification
-
-* Breaks text into individual claims
-* Classifies claims as **Valid / Questionable / False**
-
-### ❌ Hallucination Detection
-
-* Detects misleading or factually incorrect AI statements
-
-### 📚 Citation Analysis
-
-* Identifies **fake citations**
-* Detects **broken or invalid references**
-
-### 📊 Trust Score
-
-* Generates an overall reliability score from **0–100**
-
-### 🎨 Premium UI / UX
-
-* Glassmorphism design
-* Responsive across all devices
-
----
-
-# 🛠️ Tech Stack
-
-### Frontend
-
-* React + TypeScript
-* Tailwind CSS
-* shadcn/ui
-* Lucide Icons
-
-### Backend
-
-* FastAPI
-* Python
-* AI/ML-based verification logic
-
-### Deployment
-
-* Frontend: Vercel
-* Backend: Render
-
----
-
-# ⚙️ Setup & Installation Instructions
-
-### 1️⃣ Clone the Repository
-
-```bash
+  <h2>⚙️ Setup & Installation</h2>
+  <pre>
 git clone https://github.com/ByteQuest-2025/GFGBQ-Team-code-cadets
 cd GFGBQ-Team-code-cadets
-```
-
-### 2️⃣ Install Dependencies
-
-```bash
 npm install
-```
-
-### 3️⃣ Run the Development Server
-
-```bash
 npm run dev
-```
+  </pre>
+  <p>Open in browser: <code>http://localhost:5173</code></p>
 
-### 4️⃣ Open in Browser
+  <h2>📌 Usage Instructions</h2>
+  <ol>
+    <li>Paste AI-generated text into the input field</li>
+    <li>Click <strong>Verify</strong></li>
+    <li>Review claim validation, citation checks, and trust score</li>
+  </ol>
 
-```
-http://localhost:5173
-```
+  <h2>🧠 Use Cases</h2>
+  <ul>
+    <li>Students & Researchers</li>
+    <li>Journalists & Writers</li>
+    <li>Developers using AI tools</li>
+    <li>Educators</li>
+    <li>Enterprises validating AI outputs</li>
+  </ul>
 
----
+  <h2>🔮 Future Enhancements</h2>
+  <ul>
+    <li>Inline claim highlighting</li>
+    <li>PDF export of verification reports</li>
+    <li>Browser extension</li>
+    <li>User authentication & history</li>
+    <li>Dark / Light mode toggle</li>
+  </ul>
 
-# 📌 Usage Instructions
+  <h2>📄 License</h2>
+  <p>This project is licensed under the <strong>MIT License</strong>.</p>
 
-1. Paste AI-generated text into the input field
-2. Click **Verify**
-3. View:
+  <footer>
+    🔐 <strong>AI Verifier</strong> – Because trusting AI should be a choice, not a risk.
+  </footer>
 
-   * Claim verification results
-   * Fake / broken citations
-   * Overall Trust Score
-
----
-
-# 🖼️ Screenshots
-
-Include screenshots of:
-
-* Home page
-* Verification results
-* Trust score display
-
-*(Screenshots attached in the repository)*
-
----
-
-# 🧠 Use Cases
-
-* Students & Researchers
-* Journalists & Writers
-* Developers using AI tools
-* Educators
-* Enterprises validating AI outputs
-
----
-
-# 🏆 Hackathon Readiness
-
-✔ Working end-to-end solution
-✔ Clear problem–solution mapping
-✔ Strong AI trust narrative
-✔ Clean UI & demo-friendly
-
----
-
-# 🔮 Future Enhancements
-
-* Inline claim highlighting
-* Export verification reports (PDF)
-* Browser extension
-* User authentication & history
-* Dark / Light mode toggle
-
----
-
-# 📄 License
-
-This project is licensed under the **MIT License**.
-
----
-
-### 🔐 *AI Verifier – Because trusting AI should be a choice, not a risk.*
-
----
+</body>
+</html>
