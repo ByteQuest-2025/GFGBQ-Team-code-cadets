@@ -38,23 +38,6 @@ https://drive.google.com/file/d/1DUNY0qLOeZx4IBbRZIDFl2Wl_qWnMr3D/view?usp=shari
 
 ---
 
-## 📌 Hackathon Repository Guidelines
-
-All team leaders may have received a GitHub invitation to a repository named:
-
-**GFGBQ-Team-<Team Name>**
-
-This repository serves as the **official workspace for the hackathon**.
-
-### Team Leaders are responsible for:
-1. Adding all teammates to the repository  
-2. Ensuring all development work and code pushes are done only on the assigned repository  
-3. No external collaborators are allowed  
-4. Only officially registered team members may be added  
-5. Adding any collaborator outside the declared team will result in **disqualification**
-
----
-
 ## 🚀 Project Overview
 
 AI Verifier is a web-based AI-powered platform designed to verify the credibility of AI-generated content.  
