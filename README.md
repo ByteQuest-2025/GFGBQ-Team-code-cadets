@@ -18,12 +18,16 @@ CODE CADETS
 
 ---
 
-# 🌐 Deployed Link (Optional)
+# 🌐 Deployed Link (Frontend)
 
 https://byte-quest-project-sigma.vercel.app/
 
 ---
+# 🌐 Deployed Link (Backend)
 
+https://ps03-ai-verifier.onrender.com/docs
+
+---
 # 🎥 2-Minute Demonstration Video Link
 
 https://drive.google.com/file/d/1dbLRHtvBDq7PYyWV9khPI3ymVPmPaDnW/view?usp=sharing
@@ -80,10 +84,8 @@ npm run dev
 
 ## 🖼️ Screenshots
 
-Screenshots included in the repository:
-- Home Page  
-- Verification Results  
-- Trust Score Display  
+<img width="1885" height="860" alt="image" src="https://github.com/user-attachments/assets/1365333b-05fe-4874-abe0-6c1383d5acfd" />
+<img width="1891" height="861" alt="image" src="https://github.com/user-attachments/assets/9aeab8aa-0ba7-41fc-b496-b272e1232614" />
 
 ---
 
